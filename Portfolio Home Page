@@ -15,25 +15,25 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <nav class="navbar navbar-expand-md navbar-dark sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="img/Portfolio-logo.png" height="100px"></a>
+            <a class="navbar-brand" href="index.html"><img src="img/Portfolio-logo.png" height="75px"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
+                    <li class="nav-item text-white">
                         <a class="nav-link" href="shop.html">Shop</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Break Schedule</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Big Hits</a>
+                        <a class="nav-link" href="big-hits.html">Big Hits</a>
                     </li>
                     <li class="nav-item">
-                        <a class="btn btn-outline-dark" id="loginButton">Login</a> 
+                        <a class="btn btn-outline-light" id="loginButton">Login</a> 
                     </li>
                 </ul>
             </div>
@@ -43,7 +43,7 @@
     <div class="modal fade" id="loginModal" role="dialog">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
-                <div class="modal-header text-white bg-dark">
+                <div class="modal-header text-white">
                     <h4 class="modal-title">Login</h4>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
@@ -51,15 +51,15 @@
                     <div class="container-fluid">
                         <form>
                             <div class="form-group row">
-                                <label class="col-sm-4">Your Name</label>
+                                <label class="col-sm-4">Name</label>
                                 <input type="text" class="form-control">
                             </div>
                             <div class="form-group row">
-                                <label class="col-sm-4">Your Email</label>
+                                <label class="col-sm-4">Email</label>
                                 <input type="email" class="form-control">
                             </div>
                             <div class="form-group row">
-                                <label class="col-sm-4">Your Password</label>
+                                <label class="col-sm-4">Password</label>
                                 <input type="password" class="form-control">
                             </div>
                             <div class="modal-footer d-flex justify-content-center">
@@ -72,6 +72,7 @@
         </div>
     </div>
 
+
     <div id="slides" class="carousel slide" data-ride="carousel">
         <ul class="carousel-indicators">
             <li data-target="#slides" data-slide-to="0" class="active"></li>
@@ -80,21 +81,21 @@
         </ul>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="img/img-car.2.jpeg" height="400px" >
+                <img class="img-fluid" src="img/img-car.2.jpeg">
                 <div class="carousel-caption">
-                    <button type="button" class="btn btn-outline-light btn-lg">Shop Now</button>
+                    <a href="shop.html" type="button" class="btn btn-light btn-lg">Shop Now</a>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="img/img-car-1.jpeg" height="400px">
+                <img class="img-fluid" src="img/img-car-1.jpeg">
                 <div class="carousel-caption">
-                    <button type="button" class="btn btn-outline-light btn-lg">Shop Now</button>
+                    <a href="shop.html" type="button" class="btn btn-light btn-lg">Shop Now</a>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="img/img-car-3.jpeg" height="400px">
+                <img class="" src="img/img-car-3.jpeg" height="400px">
                 <div class="carousel-caption">
-                    <button type="button" class="btn btn-light btn-lg">Shop Now</button>
+                    <a href="shop.html" type="button" class="btn btn-light btn-lg">Shop Now</a>
                 </div>
             </div>
         </div>
@@ -107,7 +108,7 @@
                 </p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-                <a href="#"><button type="button" class="btn btn-dark btn-lg">Shop Now</button></a>
+                <a href="shop.html"><button type="button" class="btn btn-dark btn-lg">Shop Now</button></a>
             </div>
         </div>
     </div>
@@ -115,18 +116,18 @@
     <div class="container-fluid padding">
         <div class="row welcome text-center">
             <div class="col-12">
-                <h1 class="display-4">My Best Hits</h1>
+                <h1 class="display-4">Best Hits</h1>
                 <hr>
             </div>
             <hr>
         </div>
     </div>
 
-    <div class="container-fluid padding">
+    <div class="container padding">
         <div class="row padding">
             <div class="col-md-4">
                 <div class="card">
-                    <img class="card-img-top" src="img/carousel-1.jpeg">
+                    <img class="card-img-topimg-fluid" src="img/carousel-1.jpeg">
                     <div class="card-body text-center">
                         <h4 class="card-title">Justin Herbert Rookie Prizm</h4>
                         <p class="card-text">The Los Angeles Chargers didn’t see much team success in 2020, but rookie QB Justin Herbert still put up huge numbers. Herbert tossed 31 touchdowns with just 10 INTs en route to the NFL Offensive Rookie of the Year award.</p>
@@ -137,7 +138,7 @@
             
             <div class="col-md-4">
                 <div class="card">
-                    <img class="card-img-top" src="img/carousel-2.jpeg">
+                    <img class="card-img-topimg-fluid" src="img/carousel-2.jpeg">
                     <div class="card-body text-center">
                         <h4 class="card-title">Lamelo Ball Rookie NBA Hoops</h4>
                         <p class="card-text">LaMelo Ball, the youngest of the basketball-playing brothers from Chino Hills, is in his first season with the Charlotte Hornets and a leading candidate for NBA rookie of the year.</p>
@@ -148,7 +149,7 @@
 
             <div class="col-md-4">
                 <div class="card">
-                    <img class="card-img-top" src="img/carousel-3.jpeg">
+                    <img class="img-fluidcard-img-top" src="img/carousel-3.jpeg">
                     <div class="card-body text-center">
                         <h4 class="card-title">Joe Burrow Rookie Absolute</h4>
                         <p class="card-text">Joe Burrow rookie cards are a hot item and if for not getting injured he might have outdueled Justin Herbert for NFL Rookie of the Year honors. We could easily see Burrow developing into one of the best NFL QB’s in the game.</p>
@@ -175,7 +176,7 @@
                     <hr>
                     <p>555-555-5555</p>
                     <p>email@myemail.com</p>
-                    <p>5000, Strret Name</p>
+                    <p>5000, Street Name</p>
                     <p>City, State, 11111</p>
                 </div>
 
@@ -192,16 +193,16 @@
                     <hr>
                     <h5>Social</h5>
                     <hr>
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-instagram"></i></a>
-                    <a href="#"><i class="fa fa-youtube"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.youtube.com"><i class="fa fa-youtube"></i></a>
 
                 </div>
 
                 <div class="col-12">
                     <hr>
-                    <h5>&copy; Lukesportcards.com</h5>
+                    <h5>&copy; Lukessportcards.com</h5>
                 </div>
             </div>
         </div>
