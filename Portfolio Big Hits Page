@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Big Hits</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="img/Portfolio-logo.png" height="75px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Break Schedule</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <h1 class="text-center">Best From Football</h1>
+    <hr>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
+                <div class="card">
+                    <img class="card-img-top" src="img/bog-hit-fb.png">
+                    <div class="card-body text-center">
+                        <h4>Patrick Mahomes Rookie Card</h4>
+                        <p>350,000.00</p>
+                    </div> 
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
+                <div class="card">
+                    <img class="card-img-top" src="img/tb-bh-fb.png">
+                    <div class="card-body text-center">
+                        <h4>Tom Brady Rookie Card</h4>
+                        <p>400,000.00</p>
+                    </div> 
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
+                <div class="card">
+                    <img class="card-img-top" src="img/JH-bg-fb.png">
+                    <div class="card-body text-center">
+                        <h4>Justin Herbert Rookie Card</h4>
+                        <p>199,999.99</p>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
