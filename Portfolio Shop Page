@@ -13,9 +13,9 @@
     <title>Shop</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <nav class="navbar navbar-expand-md navbar-dark sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="img/Portfolio-logo.png" height="100px></a>
+            <a class="navbar-brand" href="index.html"><img src="img/Portfolio-logo.png" height="75"px></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -28,7 +28,7 @@
                         <a class="nav-link" href="#">Break Schedule</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Big Hits</a>
+                        <a class="nav-link" href="big-hits.html">Big Hits</a>
                     </li>
                 </ul>
             </div>
@@ -40,11 +40,11 @@
     <h1 class="display-5 text-center">Football</h1>
     <hr>
 
-    <div class="container-fluid padding">
+    <div class="container padding">
         <div class="row padding">
             <div class="col-xs-6 col-md-4">
-                <div class="card mb-5 mt-5">
-                    <img class="card-img-top" src="img/nation-tresure.png">
+                <div class="card mb-5 mt-5 card-one">
+                    <img class="card-img-top " src="img/nation-tresure.png">
                     <div class="card-body text-center">
                         <h5 class="card-text">2020 Panini National Treasures Football Hobby Box</h5>
                         <p class="card-text">$2,400.99</p>
@@ -53,7 +53,7 @@
                 </div>
             </div>
             <div class="col-xs-6 col-md-4">
-                <div class="card mb-5 mt-5">
+                <div class="card card-2 mb-5 mt-5">
                     <img class="card-img-top" src="img/prizm-draft-picks.png">
                     <div class="card-body text-center">
                         <h5 class="card-text">2021 Panini Prizm Collegiate Draft Picks Football Hobby Box</h5>
@@ -63,7 +63,7 @@
                 </div>
             </div>
             <div class="col-xs-6 col-md-4">
-                <div class="card mb-5 mt-5">
+                <div class="card card-3 mb-5 mt-5">
                      <img class="card-img-top" src="img/chronicles-football.png">
                     <div class="card-body text-center">
                         <h5 class="card-text">2020 Panini Chronicles Football H2 Box</h5>
@@ -75,10 +75,10 @@
         </div>
     </div>
 
-    <div class="container-fluid padding">
+    <div class="container padding">
         <div class="row padding">
             <div class="col-xs-6 col-md-4">
-                <div class="card mb-5 mt-5">
+                <div class="card  mb-5 mt-5">
                     <img class="card-img-top" src="img/2020-Panini-Select-H2.png">
                     <div class="card-body text-center">
                         <h5 class="card-text">2020 Panini Select Football H2 Box</h5>
@@ -113,7 +113,7 @@
     <h1 class="display-5 text-center">Basketball</h1>
     <hr>
 
-    <div class="container-fluid padding">
+    <div class="container padding">
         <div class="row padding">
             <div class="col-xs-6 col-md-4">
                 <div class="card mb-5 mt-5">
@@ -148,7 +148,7 @@
         </div>
     </div>
 
-    <div class="container-fluid padding">
+    <div class="container padding">
         <div class="row padding">
             <div class="col-xs-6 col-md-4">
                 <div class="card mb-5 mt-5">
@@ -216,16 +216,16 @@
                     <hr>
                     <h5>Social</h5>
                     <hr>
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-instagram"></i></a>
-                    <a href="#"><i class="fa fa-youtube"></i></a>
+                    <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.youtube.com"><i class="fa fa-youtube"></i></a>
 
                 </div>
 
                 <div class="col-12">
                     <hr>
-                    <h5>&copy; Lukesportcards.com</h5>
+                    <h5>&copy; Lukessportcards.com</h5>
                 </div>
             </div>
         </div>
